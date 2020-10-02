@@ -9,11 +9,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Display Responsive</title>
 </head>
 
 <body>
+    <!-- Con d-md-none, le digo que se oculte pero que sólo se vea cuando haya cierto tamaño, cuando se hace pequeño (pantalla móvil desaparece el h1)-->
+    <h1 class="d-none d-sm-block"> Estoy ocultando </h1>
 
+    <div class="bg-dark .d-sm-none  ">
+        <p class="bg-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+        </p>
+    </div>
+    <a href="" class="bg-warning "> Soy un ancla</a>
+    <a href="" class="bg-warning "> Soy un ancla</a>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
